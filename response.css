@@ -1,0 +1,430 @@
+/*
+ 响应式的框架
+
+ .col-s-1....12  代表的是小屏的1-12分
+ .col-m-1....12  代表的是中屏的1-12分
+ .col-l-1....12  代表的是大屏的1-12分
+
+ 预定义的大屏 >1200
+ 预定义的中屏 800~1200
+ 小屏       小于800
+
+
+
+
+
+*/
+.container-screen{
+    width:100%;
+}
+.container {
+    width: 600px;
+}
+
+.container>.col-s-1 {
+    width: 8.3333333%;
+    float: left;
+}
+
+.container>.col-s-2 {
+    width: 16.6666666%;
+    float: left;
+}
+
+.container>.col-s-3 {
+    width: 25%;
+    float: left;
+}
+
+.container>.col-s-4 {
+    width: 33.33333%;
+    float: left;
+}
+
+.container>.col-s-5 {
+    width: 41.66666667%;
+    float: left;
+}
+
+.container>.col-s-6 {
+    width: 50%;
+    float: left;
+}
+
+.container>.col-s-7 {
+    width: 58.3333333%;
+    float: left;
+}
+
+.container>.col-s-8 {
+    width: 66.66666667%;
+    float: left;
+}
+
+.container>.col-s-9 {
+    width: 75%;
+    float: left;
+}
+
+.container>.col-s-10 {
+    width: 83.3333333%;
+    float: left;
+}
+
+.container>.col-s-11 {
+    width: 91.666666667%;
+    float: left;
+}
+
+.container>.col-s-12 {
+    width: 100%;
+    float: left;
+}
+
+
+
+
+
+
+.container-screen>.col-s-1 {
+    width: 8.3333333%;
+    float: left;
+}
+
+.container-screen>.col-s-2 {
+    width: 16.6666666%;
+    float: left;
+}
+
+.container-screen>.col-s-3 {
+    width: 25%;
+    float: left;
+}
+
+.container-screen>.col-s-4 {
+    width: 33.33333%;
+    float: left;
+}
+
+.container-screen>.col-s-5 {
+    width: 41.66666667%;
+    float: left;
+}
+
+.container-screen>.col-s-6 {
+    width: 50%;
+    float: left;
+}
+
+.container-screen>.col-s-7 {
+    width: 58.3333333%;
+    float: left;
+}
+
+.container-screen>.col-s-8 {
+    width: 66.66666667%;
+    float: left;
+}
+
+.container-screen>.col-s-9 {
+    width: 75%;
+    float: left;
+}
+
+.container-screen>.col-s-10 {
+    width: 83.3333333%;
+    float: left;
+}
+
+.container-screen>.col-s-11 {
+    width: 91.666666667%;
+    float: left;
+}
+
+.container-screen>.col-s-12 {
+    width: 100%;
+    float: left;
+}
+
+.hidden-s{
+    display:none;
+}
+
+
+@media screen and (min-width: 800px) {
+    .hidden-s{
+        display: block;
+    }
+
+    .hidden-m{
+        display: none;
+    }
+
+
+    .container {
+        width: 900px;
+    }
+
+    .container>.col-m-1 {
+        width: 8.3333333%;
+        float: left;
+    }
+
+    .container>.col-m-2 {
+        width: 16.6666666%;
+        float: left;
+    }
+
+    .container>.col-m-3 {
+        width: 25%;
+        float: left;
+    }
+
+    .container>.col-m-4 {
+        width: 33.33333%;
+        float: left;
+    }
+
+    .container>.col-m-5 {
+        width: 41.66666667%;
+        float: left;
+    }
+
+    .container>.col-m-6 {
+        width: 50%;
+        float: left;
+    }
+
+    .container>.col-m-7 {
+        width: 58.3333333%;
+        float: left;
+    }
+
+    .container>.col-m-8 {
+        width: 66.66666667%;
+        float: left;
+    }
+
+    .container>.col-m-9 {
+        width: 75%;
+        float: left;
+    }
+
+    .container>.col-m-10 {
+        width: 83.3333333%;
+        float: left;
+    }
+
+    .container>.col-m-11 {
+        width: 91.666666667%;
+        float: left;
+    }
+
+    .container>.col-m-12 {
+        width: 100%;
+        float: left;
+    }
+
+
+
+
+    .container-screen>.col-m-1 {
+        width: 8.3333333%;
+        float: left;
+    }
+
+    .container-screen>.col-m-2 {
+        width: 16.6666666%;
+        float: left;
+    }
+
+    .container-screen>.col-m-3 {
+        width: 25%;
+        float: left;
+    }
+
+    .container-screen>.col-m-4 {
+        width: 33.33333%;
+        float: left;
+    }
+
+    .container-screen>.col-m-5 {
+        width: 41.66666667%;
+        float: left;
+    }
+
+    .container-screen>.col-m-6 {
+        width: 50%;
+        float: left;
+    }
+
+    .container-screen>.col-m-7 {
+        width: 58.3333333%;
+        float: left;
+    }
+
+    .container-screen>.col-m-8 {
+        width: 66.66666667%;
+        float: left;
+    }
+
+    .container-screen>.col-m-9 {
+        width: 75%;
+        float: left;
+    }
+
+    .container-screen>.col-m-10 {
+        width: 83.3333333%;
+        float: left;
+    }
+
+    .container-screen>.col-m-11 {
+        width: 91.666666667%;
+        float: left;
+    }
+
+    .container-screen>.col-m-12 {
+        width: 100%;
+        float: left;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    .hidden-m{
+        display: block;
+    }
+    .hidden-s{
+        display: block;
+    }
+    .hidden-l{
+        display:none;
+    }
+    .container {
+        width: 1200px;
+    }
+
+    .container>.col-l-1 {
+        width: 8.3333333%;
+        float: left;
+    }
+
+    .container>.col-l-2 {
+        width: 16.6666666%;
+        float: left;
+    }
+
+    .container>.col-l-3 {
+        width: 25%;
+        float: left;
+    }
+
+    .container>.col-l-4 {
+        width: 33.33333%;
+        float: left;
+    }
+
+    .container>.col-l-5 {
+        width: 41.66666667%;
+        float: left;
+    }
+
+    .container>.col-l-6 {
+        width: 50%;
+        float: left;
+    }
+
+    .container>.col-l-7 {
+        width: 58.3333333%;
+        float: left;
+    }
+
+    .container>.col-l-8 {
+        width: 66.66666667%;
+        float: left;
+    }
+
+    .container>.col-l-9 {
+        width: 75%;
+        float: left;
+    }
+
+    .container>.col-l-10 {
+        width: 83.3333333%;
+        float: left;
+    }
+
+    .container>.col-l-11 {
+        width: 91.666666667%;
+        float: left;
+    }
+
+    .container>.col-l-12 {
+        width: 100%;
+        float: left;
+    }
+
+
+
+
+    .container-screen>.col-l-1 {
+        width: 8.3333333%;
+        float: left;
+    }
+
+    .container-screen>.col-l-2 {
+        width: 16.6666666%;
+        float: left;
+    }
+
+    .container-screen>.col-l-3 {
+        width: 25%;
+        float: left;
+    }
+
+    .container-screen>.col-l-4 {
+        width: 33.33333%;
+        float: left;
+    }
+
+    .container-screen>.col-l-5 {
+        width: 41.66666667%;
+        float: left;
+    }
+
+    .container-screen>.col-l-6 {
+        width: 50%;
+        float: left;
+    }
+
+    .container-screen>.col-l-7 {
+        width: 58.3333333%;
+        float: left;
+    }
+
+    .container-screen>.col-l-8 {
+        width: 66.66666667%;
+        float: left;
+    }
+
+    .container-screen>.col-l-9 {
+        width: 75%;
+        float: left;
+    }
+
+    .container-screen>.col-l-10 {
+        width: 83.3333333%;
+        float: left;
+    }
+
+    .container-screen>.col-l-11 {
+        width: 91.666666667%;
+        float: left;
+    }
+
+    .container-screen>.col-l-12 {
+        width: 100%;
+        float: left;
+    }
+
+}
